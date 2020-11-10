@@ -1,0 +1,292 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F57Q43 ]
+[d frameptr 1249 ]
+"259 D:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+[v _ctoa ctoa `(i  1 s 2 ctoa ]
+"692
+[v _vfpfcnvrt vfpfcnvrt `(i  1 s 2 vfpfcnvrt ]
+"1390
+[v _vfprintf vfprintf `(i  1 e 2 0 ]
+"4 D:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 D:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 D:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 D:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 D:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 D:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"8 D:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\nf_fputc.c
+[v _fputc fputc `(i  1 e 2 0 ]
+"8 D:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\nf_fputs.c
+[v _fputs fputs `(i  1 e 2 0 ]
+"5 D:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\printf.c
+[v _printf printf `(i  1 e 2 0 ]
+"3 D:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\puts.c
+[v _puts puts `(i  1 e 2 0 ]
+"10 D:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 D:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 D:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"3 D:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\strcmp.c
+[v _strcmp strcmp `(i  1 e 2 0 ]
+"5 D:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\strlen.c
+[v _strlen strlen `(ui  1 e 2 0 ]
+"15 D:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 D:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"127 F:\jvourv\IHU\Lessons\MCU\Lab\Proj\PIC_lab\PIC_lab03\PIC_lab03.X\main.c
+[v _putch putch `(v  1 e 1 0 ]
+"142
+[v _main main `(v  1 e 1 0 ]
+"10604 C:/Users/Tribe/.mchp_packs/Microchip/PIC18F-Q_DFP/1.7.135/xc8\pic\include\proc\pic18f57q43.h
+[v _RF0PPS RF0PPS `VEuc  1 e 1 @553 ]
+"14778
+[v _U1RXPPS U1RXPPS `VEuc  1 e 1 @626 ]
+"17047
+[v _U1RXB U1RXB `VEuc  1 e 1 @673 ]
+"17105
+[v _U1TXB U1TXB `VEuc  1 e 1 @675 ]
+"17304
+[v _U1CON0 U1CON0 `VEuc  1 e 1 @683 ]
+[s S129 . 1 `uc 1 MODE0 1 0 :1:0 
+`uc 1 MODE1 1 0 :1:1 
+`uc 1 MODE2 1 0 :1:2 
+`uc 1 MODE3 1 0 :1:3 
+]
+"17337
+[s S134 . 1 `uc 1 U1MODE 1 0 :4:0 
+`uc 1 U1RXEN 1 0 :1:4 
+`uc 1 U1TXEN 1 0 :1:5 
+`uc 1 U1ABDEN 1 0 :1:6 
+`uc 1 U1BRGS 1 0 :1:7 
+]
+[s S140 . 1 `uc 1 U1MODE0 1 0 :1:0 
+`uc 1 U1MODE1 1 0 :1:1 
+`uc 1 U1MODE2 1 0 :1:2 
+`uc 1 U1MODE3 1 0 :1:3 
+]
+[s S145 . 1 `uc 1 MODE 1 0 :4:0 
+`uc 1 RXEN 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 ABDEN 1 0 :1:6 
+`uc 1 BRGS 1 0 :1:7 
+]
+[u S151 . 1 `S129 1 . 1 0 `S134 1 . 1 0 `S140 1 . 1 0 `S145 1 . 1 0 ]
+[v _U1CON0bits U1CON0bits `VES151  1 e 1 @683 ]
+"17432
+[v _U1CON1 U1CON1 `VEuc  1 e 1 @684 ]
+[s S181 . 1 `uc 1 SENDB 1 0 :1:0 
+`uc 1 BRKOVR 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 RXBIMD 1 0 :1:3 
+`uc 1 WUE 1 0 :1:4 
+`uc 1 . 1 0 :2:5 
+`uc 1 ON 1 0 :1:7 
+]
+"17457
+[s S189 . 1 `uc 1 U1SENDB 1 0 :1:0 
+`uc 1 U1BRKOVR 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 U1RXBIMD 1 0 :1:3 
+`uc 1 U1WUE 1 0 :1:4 
+`uc 1 . 1 0 :2:5 
+`uc 1 U1ON 1 0 :1:7 
+]
+[u S197 . 1 `S181 1 . 1 0 `S189 1 . 1 0 ]
+[v _U1CON1bits U1CON1bits `VES197  1 e 1 @684 ]
+"17512
+[v _U1CON2 U1CON2 `VEuc  1 e 1 @685 ]
+"17661
+[v _U1BRGL U1BRGL `VEuc  1 e 1 @686 ]
+"17681
+[v _U1BRGH U1BRGH `VEuc  1 e 1 @687 ]
+[s S24 . 1 `uc 1 RXBF 1 0 :1:0 
+`uc 1 RXBE 1 0 :1:1 
+`uc 1 XON 1 0 :1:2 
+`uc 1 RXIDL 1 0 :1:3 
+`uc 1 TXBF 1 0 :1:4 
+`uc 1 TXBE 1 0 :1:5 
+`uc 1 STPMD 1 0 :1:6 
+`uc 1 TXWRE 1 0 :1:7 
+]
+"17736
+[s S33 . 1 `uc 1 U1RXBF 1 0 :1:0 
+`uc 1 U1RXBE 1 0 :1:1 
+`uc 1 U1XON 1 0 :1:2 
+`uc 1 U1RXIDL 1 0 :1:3 
+`uc 1 U1TXBF 1 0 :1:4 
+`uc 1 U1TXBE 1 0 :1:5 
+`uc 1 U1STPMD 1 0 :1:6 
+`uc 1 U1TXWRE 1 0 :1:7 
+]
+[s S42 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 U1RCIDL 1 0 :1:3 
+]
+[s S45 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 RCIDL 1 0 :1:3 
+]
+[u S48 . 1 `S24 1 . 1 0 `S33 1 . 1 0 `S42 1 . 1 0 `S45 1 . 1 0 ]
+[v _U1FIFObits U1FIFObits `VES48  1 e 1 @688 ]
+"40469
+[v _ANSELD ANSELD `VEuc  1 e 1 @1048 ]
+[s S82 . 1 `uc 1 ANSELF0 1 0 :1:0 
+`uc 1 ANSELF1 1 0 :1:1 
+`uc 1 ANSELF2 1 0 :1:2 
+`uc 1 ANSELF3 1 0 :1:3 
+`uc 1 ANSELF4 1 0 :1:4 
+`uc 1 ANSELF5 1 0 :1:5 
+`uc 1 ANSELF6 1 0 :1:6 
+`uc 1 ANSELF7 1 0 :1:7 
+]
+"41031
+[u S91 . 1 `S82 1 . 1 0 ]
+"41031
+"41031
+[v _ANSELFbits ANSELFbits `VES91  1 e 1 @1064 ]
+"47563
+[v _LATD LATD `VEuc  1 e 1 @1217 ]
+[s S229 . 1 `uc 1 LATD0 1 0 :1:0 
+`uc 1 LATD1 1 0 :1:1 
+`uc 1 LATD2 1 0 :1:2 
+`uc 1 LATD3 1 0 :1:3 
+`uc 1 LATD4 1 0 :1:4 
+`uc 1 LATD5 1 0 :1:5 
+`uc 1 LATD6 1 0 :1:6 
+`uc 1 LATD7 1 0 :1:7 
+]
+"47580
+[u S238 . 1 `S229 1 . 1 0 ]
+"47580
+"47580
+[v _LATDbits LATDbits `VES238  1 e 1 @1217 ]
+"47905
+[v _TRISD TRISD `VEuc  1 e 1 @1225 ]
+[s S103 . 1 `uc 1 TRISF0 1 0 :1:0 
+`uc 1 TRISF1 1 0 :1:1 
+`uc 1 TRISF2 1 0 :1:2 
+`uc 1 TRISF3 1 0 :1:3 
+`uc 1 TRISF4 1 0 :1:4 
+`uc 1 TRISF5 1 0 :1:5 
+`uc 1 TRISF6 1 0 :1:6 
+`uc 1 TRISF7 1 0 :1:7 
+]
+"48016
+[u S112 . 1 `S103 1 . 1 0 ]
+"48016
+"48016
+[v _TRISFbits TRISFbits `VES112  1 e 1 @1227 ]
+"55 D:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+[v _flags flags `i  1 s 2 flags ]
+[v _prec prec `i  1 s 2 prec ]
+[v _width width `i  1 s 2 width ]
+"69
+[v _nout nout `i  1 s 2 nout ]
+"142 F:\jvourv\IHU\Lessons\MCU\Lab\Proj\PIC_lab\PIC_lab03\PIC_lab03.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"147
+[v main@cmd cmd `[20]uc  1 a 20 43 ]
+"148
+[v main@i i `uc  1 a 1 64 ]
+"147
+[v main@c c `uc  1 a 1 63 ]
+"284
+} 0
+"3 D:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\strcmp.c
+[v _strcmp strcmp `(i  1 e 2 0 ]
+{
+[v strcmp@l l `*.39Cuc  1 p 2 0 ]
+[v strcmp@r r `*.32Cuc  1 p 2 2 ]
+"7
+} 0
+"3 D:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\puts.c
+[v _puts puts `(i  1 e 2 0 ]
+{
+[v puts@s s `*.32Cuc  1 p 2 19 ]
+"10
+} 0
+"8 D:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\nf_fputs.c
+[v _fputs fputs `(i  1 e 2 0 ]
+{
+"11
+[v fputs@i i `i  1 a 2 17 ]
+"10
+[v fputs@c c `uc  1 a 1 16 ]
+"8
+[v fputs@s s `*.32Cuc  1 p 2 10 ]
+[s S761 _IO_FILE 6 `*.2uc 1 buffer 2 0 `i 1 count 2 2 `i 1 limit 2 4 ]
+[v fputs@fp fp `*.2S761  1 p 2 12 ]
+"19
+} 0
+"5 D:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\printf.c
+[v _printf printf `(i  1 e 2 0 ]
+{
+"8
+[v printf@ap ap `[1]*.39v  1 a 2 41 ]
+"5
+[v printf@fmt fmt `*.32Cuc  1 p 2 35 ]
+"13
+} 0
+"1390 D:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\doprnt.c
+[v _vfprintf vfprintf `(i  1 e 2 0 ]
+{
+"1393
+[v vfprintf@cfmt cfmt `*.32uc  1 a 2 33 ]
+[s S778 _IO_FILE 0 ]
+"1390
+[v vfprintf@fp fp `*.2S778  1 p 2 27 ]
+[v vfprintf@fmt fmt `*.32Cuc  1 p 2 29 ]
+[v vfprintf@ap ap `*.39*.39v  1 p 2 31 ]
+"1404
+} 0
+"692
+[v _vfpfcnvrt vfpfcnvrt `(i  1 s 2 vfpfcnvrt ]
+{
+"694
+[v vfpfcnvrt@c c `uc  1 a 1 26 ]
+[s S778 _IO_FILE 0 ]
+"692
+[v vfpfcnvrt@fp fp `*.2S778  1 p 2 18 ]
+[v vfpfcnvrt@fmt fmt `*.39*.32uc  1 p 2 20 ]
+[v vfpfcnvrt@ap ap `*.39*.39v  1 p 2 22 ]
+"1387
+} 0
+"259
+[v _ctoa ctoa `(i  1 s 2 ctoa ]
+{
+"261
+[v ctoa@w w `i  1 a 2 16 ]
+[v ctoa@l l `i  1 a 2 14 ]
+[s S778 _IO_FILE 0 ]
+"259
+[v ctoa@fp fp `*.2S778  1 p 2 10 ]
+[v ctoa@c c `uc  1 p 1 12 ]
+"283
+} 0
+"8 D:\Program Files\Microchip\xc8\v2.30\pic\sources\c99\common\nf_fputc.c
+[v _fputc fputc `(i  1 e 2 0 ]
+{
+[v fputc@c c `i  1 p 2 1 ]
+[s S761 _IO_FILE 6 `*.2uc 1 buffer 2 0 `i 1 count 2 2 `i 1 limit 2 4 ]
+[v fputc@fp fp `*.2S761  1 p 2 3 ]
+"24
+} 0
+"127 F:\jvourv\IHU\Lessons\MCU\Lab\Proj\PIC_lab\PIC_lab03\PIC_lab03.X\main.c
+[v _putch putch `(v  1 e 1 0 ]
+{
+[v putch@data data `uc  1 a 1 wreg ]
+[v putch@data data `uc  1 a 1 wreg ]
+[v putch@data data `uc  1 a 1 0 ]
+"140
+} 0
